@@ -1,0 +1,25 @@
+{
+    "name": "modlsupport",
+    "displayName": "Modl Support",
+    "description": "Support and colorizer extension for Modl language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "modl",
+            "aliases": ["Modl", "modl"],
+            "extensions": [".modl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "modl",
+            "scopeName": "text.py.modl",
+            "path": "./syntaxes/modl.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "modl",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#entityes"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+			{	
+				"name": "keyword.control.modl",
+				"match": "\\b(if|else|while|for|return)\\b"
+			},
+			{	
+				"name": "keyword.control.less.modl",
+				"match": "\\b([0-9])+\\b"
+			}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.modl",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.modl",
+					"match": "\\\\."
+				}
+			]
+		},
+		"entityes": {
+			"patterns": [
+			{	
+				"name": "entity.name.function.modl",
+				"match": "((([a-z])|([A-Z])|([0-9]))+:)|:(end)"
+			},
+			{	
+				"name": "entity.name.class.modl",
+				"match": "\\b(print|goto)\\b"
+			},
+			{	
+				"name": "entity.other.attribute-name.modl",
+				"match": "(start):"
+			}
+			]
+		}
+	},
+	"scopeName": "text.py.modl"
+}
