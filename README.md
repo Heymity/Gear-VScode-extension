@@ -13,20 +13,25 @@ None
 
 ## Release Notes
 
+### 0.0.4
+<<Added>> Color codding for var:
+
+<<Updated>> Color schemas
+
 ### 0.0.2 - 0.0.3
-    <<Added>> Identing modl code
+<<Added>> Identing modl code
     
-    <<Added>> Folding code support and #region support
+<<Added>> Folding code support and #region support
 
 
 ### 0.0.1b
-    <<Added>> More color coding and bugs fixing
+<<Added>> More color coding and bugs fixing
 
 
 ### 0.0.1
-    <<Added>> Color coding for some of the terms of modl
+<<Added>> Color coding for some of the terms of modl
 
-    <<Added>> Auto closing tag for modl tags
+<<Added>> Auto closing tag for modl tags
 
 ----------------------------------------------------------------------------------------------------------
 

@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#comments"
+		},
+		{
+			"include": "#variables"
 		}
 	],
 	"repository": {
@@ -28,6 +31,10 @@
 			{	
 				"name": "keyword.control.less.modl",
 				"match": "\\b([0-9])+\\b"
+			},
+			{	
+				"name": "keyword.control.less.modl",
+				"match": "section (?=[a-zA-Z0-9]+\\(\\):)"
 			}
 			]
 		},
@@ -46,7 +53,7 @@
 			"patterns": [
 			{	
 				"name": "entity.name.function.modl",
-				"match": "((([a-zA-Z0-9]))+:)|:(end):|:(end)"
+				"match": "((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)"
 			},
 			{	
 				"name": "entity.name.class.modl",
@@ -60,9 +67,9 @@
 		},
 		"supports": {
 			"patterns": [
-				{	
-					"name": "support.class",
-					"match": "section (?=[a-zA-Z0-9]+:)"
+				{
+					"name": "support.variable",
+					"match": "\\b(true|false)\\b"
 				}
 			]
 		},
@@ -71,6 +78,14 @@
 				{
 					"name": "comment.modl",
 					"match": "^\\s*\\s*#?region\\b|^\\s*\\s*#?endregion\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "variable.language",
+					"match": "var:"
 				}
 			]
 		}
