@@ -10,6 +10,7 @@
         ["{", "}"],
         ["[", "]"],
         ["(", ")"],
+        [":",":end"]
     ],
     // symbols that are auto closed when typing
     "autoClosingPairs": [
@@ -18,7 +19,7 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"],
-        [":", ":end"]
+        [":",":end"],
     ],
     // symbols that that can be used to surround a selection
     "surroundingPairs": [
@@ -28,5 +29,10 @@
         ["\"", "\""],
         ["'", "'"],
         [":", ":"]
-    ]
+    ],
+
+    "indentationRules": {
+        "increaseIndentPattern": "^((?!\\/\\/).)*(\\{[^}\"'`]*|\\([^)\"'`]*|\\[[^\\]\"'`]*|:[^:end\"'`]*)$",
+        "decreaseIndentPattern": "^((?!.*?\\/\\*).*\\*/)?\\s*[\\}\\]:].*$"
+    }
 }
