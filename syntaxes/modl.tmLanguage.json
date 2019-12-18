@@ -10,6 +10,9 @@
 		},
 		{
 			"include": "#entityes"
+		},
+		{
+			"include": "#supports"
 		}
 	],
 	"repository": {
@@ -40,7 +43,7 @@
 			"patterns": [
 			{	
 				"name": "entity.name.function.modl",
-				"match": "((([a-z])|([A-Z])|([0-9]))+:)|:(end)"
+				"match": "((([a-zA-Z0-9]))+:)|:(end):|:(end)"
 			},
 			{	
 				"name": "entity.name.class.modl",
@@ -50,6 +53,14 @@
 				"name": "entity.other.attribute-name.modl",
 				"match": "(start):"
 			}
+			]
+		},
+		"supports": {
+			"patterns": [
+				{	
+					"name": "support.class",
+					"match": "section (?=[a-zA-Z0-9]+:)"
+				}
 			]
 		}
 	},
