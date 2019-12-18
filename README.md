@@ -16,7 +16,10 @@ None
 ### 0.0.1
     <<Added>> Color coding for some of the terms of modl
 
-    <<Added>> Auto closing tag for modl tags:
+    <<Added>> Auto closing tag for modl tags
+
+### 0.0.1b
+    <<Added>> More color coding and bugs fixing
 
 
 ----------------------------------------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 ## [Unreleased]
-
+Verify if the section name in goto() is valid before coloring
 
 ## [Relesed]
 
@@ -15,6 +15,7 @@
         -print
         -goto
         -" "
+        -section NAME:
 
     <<Added>> Auto closing tag for the followings tags:
         - {, }
