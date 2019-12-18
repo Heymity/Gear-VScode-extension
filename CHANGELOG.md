@@ -3,8 +3,10 @@ Verify if the section name in goto() is valid before coloring
 
 ## [Relesed]
 
-- Relese 0.0.2
+- Relese 0.0.2 and 0.0.2b
     <<Added>> Identing modl code
+
+    <<Added>> Folding code support and #region support
 
 - Initial release
     <<Added>> Color coding for the following terms of modl:

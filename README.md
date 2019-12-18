@@ -1,6 +1,6 @@
 # ModlSupport README
 
-This is the README for the extension "ModlSupport". 
+This is the README for the language support extension "ModlSupport". 
 
 ## Features
 
@@ -13,8 +13,11 @@ None
 
 ## Release Notes
 
-### 0.0.2
-    <<added>> Identing modl code
+### 0.0.2b
+    <<Added>> Identing modl code
+    
+    <<Added>> Folding code support and #region support
+
 
 ### 0.0.1b
     <<Added>> More color coding and bugs fixing

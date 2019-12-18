@@ -2,7 +2,7 @@
     "name": "modlsupport",
     "displayName": "Modl Support",
     "description": "Support and colorizer extension for Modl language",
-    "version": "0.0.2",
+    "version": "0.0.2b",
     "engines": {
         "vscode": "^1.41.0"
     },
