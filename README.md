@@ -13,7 +13,7 @@ None
 
 ## Release Notes
 
-### 0.0.2b
+### 0.0.2 - 0.0.3
     <<Added>> Identing modl code
     
     <<Added>> Folding code support and #region support

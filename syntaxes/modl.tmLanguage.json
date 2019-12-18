@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#supports"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -60,6 +63,14 @@
 				{	
 					"name": "support.class",
 					"match": "section (?=[a-zA-Z0-9]+:)"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.modl",
+					"match": "^\\s*\\s*#?region\\b|^\\s*\\s*#?endregion\\b"
 				}
 			]
 		}
