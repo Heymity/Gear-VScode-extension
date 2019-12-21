@@ -53,7 +53,7 @@
 			"patterns": [
 			{	
 				"name": "entity.name.function.modl",
-				"match": "((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)"
+				"match": "\\b((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)"
 			},
 			{	
 				"name": "entity.name.class.modl",
@@ -61,7 +61,7 @@
 			},
 			{	
 				"name": "entity.other.attribute-name.modl",
-				"match": "(start):"
+				"match": "\\b(start):"
 			}
 			]
 		},

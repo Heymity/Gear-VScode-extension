@@ -9,7 +9,7 @@ Simple language support extension for the mod creation focus language modl
 
 ## Known Issues
 
-None
+When typing var: the extensio will autoclose it with :end, when it shouldn't
 
 ## Release Notes
 
