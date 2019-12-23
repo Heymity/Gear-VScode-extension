@@ -1,14 +1,17 @@
 ## [Unreleased]
-Verify if the section name in goto() is valid before coloring
+
 
 ## [Relesed]
 
-- Relese 0.0.4
+- Release 0.0.5
+    <<Fixed>> Now whenever you type var: the extension wont auto compleate with :end
+
+- Release 0.0.4
     <<Added>> Color codding for var:
 
     <<Updated>> Color schemas
 
-- Relese 0.0.2 and 0.0.3
+- Release 0.0.2 and 0.0.3
     <<Added>> Identing modl code
 
     <<Added>> Folding code support and #region support
