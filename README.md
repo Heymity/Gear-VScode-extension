@@ -9,9 +9,12 @@ Simple language support extension for the mod creation focus language modl
 
 ## Known Issues
 
-When typing var: the extensio will autoclose it with :end, when it shouldn't
+None
 
 ## Release Notes
+
+### 0.0.5
+<Fixed> Now whenever you type var: the extension wont autocompleat with :end
 
 ### 0.0.4
 <Added> Color codding for var:

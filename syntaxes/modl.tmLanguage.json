@@ -58,10 +58,6 @@
 			{	
 				"name": "entity.name.class.modl",
 				"match": "\\b(print|goto)\\b"
-			},
-			{	
-				"name": "entity.other.attribute-name.modl",
-				"match": "\\b(start):"
 			}
 			]
 		},
