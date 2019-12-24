@@ -13,6 +13,9 @@ None
 
 ## Release Notes
 
+### 0.0.6
+<Updated> Changed keywords to fit the new version of teh language
+
 ### 0.0.5
 <Fixed> Now whenever you type var: the extension wont autocompleat with :end
 

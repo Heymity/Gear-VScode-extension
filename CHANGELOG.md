@@ -3,6 +3,9 @@
 
 ## [Relesed]
 
+- Release 0.0.6
+    <<Updated>> Changed keywords to fit the new version of teh language
+
 - Release 0.0.5
     <<Fixed>> Now whenever you type var: the extension wont auto compleate with :end
 

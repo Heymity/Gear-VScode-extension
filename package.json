@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "modl",
-            "scopeName": "text.py.modl",
+            "scopeName": "text.cs.modl",
             "path": "./syntaxes/modl.tmLanguage.json"
         }]
     }
