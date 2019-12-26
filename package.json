@@ -2,7 +2,7 @@
     "name": "modlsupport",
     "displayName": "Modl Support",
     "description": "Support and colorizer extension for Modl language",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "modl",
-            "scopeName": "text.py.modl",
+            "scopeName": "text.cs.modl",
             "path": "./syntaxes/modl.tmLanguage.json"
         }]
     }
