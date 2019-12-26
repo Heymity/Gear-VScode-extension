@@ -13,6 +13,10 @@ None
 
 ## Release Notes
 
+### 1.0.0
+<Updated> Fitting the extension for the Gear language, that is the new and official name of the language.
+
+
 ### 0.0.6
 <Updated> Changed keywords to fit the new version of teh language
 
