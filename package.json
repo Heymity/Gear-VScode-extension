@@ -1,8 +1,8 @@
 {
-    "name": "modlsupport",
-    "displayName": "Modl Support",
-    "description": "Support and colorizer extension for Modl language",
-    "version": "0.0.5",
+    "name": "gearsupport",
+    "displayName": "Gear Support",
+    "description": "Support and colorizer extension for Gear language",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.41.0"
     },
@@ -11,15 +11,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "modl",
-            "aliases": ["Modl", "modl"],
-            "extensions": [".modl"],
+            "id": "gear",
+            "aliases": ["Gear", "gear"],
+            "extensions": [".gear"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "modl",
-            "scopeName": "text.cs.modl",
-            "path": "./syntaxes/modl.tmLanguage.json"
+            "language": "gear",
+            "scopeName": "text.cs.gear",
+            "path": "./syntaxes/gear.tmLanguage.json"
         }]
     }
 }

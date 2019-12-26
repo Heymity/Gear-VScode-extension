@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "modl",
+	"name": "gear",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -25,26 +25,26 @@
 		"keywords": {
 			"patterns": [
 			{	
-				"name": "keyword.control.modl",
+				"name": "keyword.control.gear",
 				"match": "\\b(if|else|while|for|return)\\b"
 			},
 			{	
-				"name": "keyword.control.less.modl",
+				"name": "keyword.control.less.gear",
 				"match": "\\b([0-9])+\\b"
 			},
 			{	
-				"name": "keyword.control.less.modl",
-				"match": "func (?=[a-zA-Z0-9]+\\(\\):)"
+				"name": "keyword.control.less.gear",
+				"match": "func (?=[a-zA-Z0-9]+\\(\\):)|method"
 			}
 			]
 		},
 		"strings": {
-			"name": "string.quoted.double.modl",
+			"name": "string.quoted.double.gear",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
-					"name": "constant.character.escape.modl",
+					"name": "constant.character.escape.gear",
 					"match": "\\\\."
 				}
 			]
@@ -52,11 +52,11 @@
 		"entityes": {
 			"patterns": [
 			{	
-				"name": "entity.name.function.modl",
+				"name": "entity.name.function.gear",
 				"match": "\\b((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)|(([a-zA-Z0-9]))+(?=\\(\\))"
 			},
 			{	
-				"name": "entity.name.class.modl",
+				"name": "entity.name.class.gear",
 				"match": "\\b(print)\\b"
 			}
 			]
@@ -72,7 +72,7 @@
 		"comments": {
 			"patterns": [
 				{
-					"name": "comment.modl",
+					"name": "comment.gear",
 					"match": "#.+"
 				}
 			]
@@ -86,5 +86,5 @@
 			]
 		}
 	},
-	"scopeName": "text.cs.modl"
+	"scopeName": "text.cs.gear"
 }
