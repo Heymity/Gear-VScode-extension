@@ -14,14 +14,14 @@ None
 ## Release Notes
 
 ### 1.0.0
-<Updated> Fitting the extension for the Gear language, that is the new and official name of the language.
+    <Updated> Fitting the extension for the Gear language, that is the new and official name of the language.
 
 
 ### 0.0.6
-<Updated> Changed keywords to fit the new version of teh language
+    <Updated> Changed keywords to fit the new version of teh language
 
 ### 0.0.5
-<Fixed> Now whenever you type var: the extension wont autocompleat with :end
+    <Fixed> Now whenever you type var: the extension wont autocompleat with :end
 
 ### 0.0.4
     <Added> Color codding for var:
