@@ -52,12 +52,12 @@
 		"entityes": {
 			"patterns": [
 			{	
-				"name": "entity.name.function.gear",
-				"match": "\\b((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)|(([a-zA-Z0-9]))+(?=\\(\\))"
+				"name": "entity.name.class.gear",
+				"match": "\\b(print|input)\\b"
 			},
 			{	
-				"name": "entity.name.class.gear",
-				"match": "\\b(print)\\b"
+				"name": "entity.name.function.gear",
+				"match": "\\b((([a-zA-Z0-9]))+\\(\\):)|:(end):|:(end)|(([a-zA-Z0-9]))+((?=\\(\\))|(?=\\(.+\\)))"
 			}
 			]
 		},
