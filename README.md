@@ -13,6 +13,10 @@ None
 
 ## Release Notes
 
+### 1.0.1
+<Added>  Color coding for input
+
+
 ### 1.0.0
 <Updated> Fitting the extension for the Gear language, that is the new and official name of the language.
 
